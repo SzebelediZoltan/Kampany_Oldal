@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --elsodleges: 202, 131, 0;
+    --fekete: 16, 14, 14;
+    --feher: 225, 237, 240
+}
+
+body {
+    background-color: rgb(var(--fekete));
+    color: rgb(var(--feher));
+}
+
+.head {
+    color: rgb(var(--elsodleges));
+    margin: 10px;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(var(--elsodleges));
+}
+
+.szavazas {
+    text-align: center;
+}
+
+#szavazatok-szama {
+    font-size: 3em;
+    text-shadow: 0 0 20px rgb(var(--elsodleges));
+}
+
+hr {
+    margin: 10px 0;
+}
